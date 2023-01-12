@@ -21,8 +21,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="./assets/css/style.css">
-<link rel="stylesheet" href="./email/form-style.css">
-    
 </head>
 <body>
   <!-- main header [ begin ] -->
@@ -162,9 +160,85 @@
         </div>
       </div>
     </section>
-    
-
-    
+    <section class="the-q-lab-sec">
+      <div class="container">
+        <div class="the-q-lab-sec__container">
+          <div class="the-q-lab-sec__container__infographic">
+            <div class="infographic-points">
+              <img src="./assets/images/q-quality-points.svg" alt="" />
+              <span class="infographic-points__point infographic-points__point--qahwa">
+                <span class="q-letter">Q</span>ahwa
+              </span>
+              <span class="infographic-points__point infographic-points__point--graders">
+                <span class="q-letter">Q</span> Graders
+              </span>
+              <span class="infographic-points__point infographic-points__point--quintessence">
+                <span class="q-letter">Q</span>uintessence
+              </span>
+              <span class="infographic-points__point infographic-points__point--quality">
+                <span class="q-letter">Q</span>uality
+              </span>
+              <!-- <span class="infographic-points__point__bg">Background</span> -->
+            </div>
+          </div>
+          <div class="the-q-lab-sec__container__content">
+            <h2 class="fs-h1 text-transform--uppercase mb-4">
+              <span class="fw-light d-block">The</span>
+              <span class="text-primary d-block">Q</span> 
+              <span class="fw-light">in</span> TQL
+            </h2>
+            <p style="max-width: 250px;" class="m-0">
+              The <span class="text-primary fw-bold">Q</span> stands for many attributes that are linked to coffee
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="vision-sec">
+      <div class="container">
+        <div class="vision-sec__container">
+          <div class="vision-sec__container__image">
+            <picture>
+              <img src="./assets/images/coffee-serving.png" alt="Coffee Serving" />
+            </picture>
+          </div>
+          <div class="vision-sec__container__content">
+            <div class="text">
+              <h2 class="fs-h1 text-white">Our Vision</h2>
+              <p class="m-0">The <strong>Q</strong> Lab is not your ordinary coffee and by far not your standard coffee experience.</p>
+            </div>
+            <div class="brand-stamp">
+              <img src="./assets/images/vision-stamp.svg" alt="Vision Stamp">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-what-make-unique-sec">
+      <div class="container">
+        <div class="about-what-make-unique-sec__container">
+          <div class="about-what-make-unique-sec__container__image">
+            <picture>
+              <img src="./assets/images/coffee-in-spoon.png" alt="Coffee in Spoon" />
+            </picture>
+          </div>
+          <div class="about-what-make-unique-sec__container__content">
+            <h2 class="fs-h1 text-transform--uppercase mb-4">
+              <span class="d-block fw-light">What makes </span>
+              <span class="fw-bold white-space--nowrap text-primary">The Q Lab</span> 
+              unique?
+            </h2>
+            <p class="pe-md-5 mb-md-4">
+              The Q Lab is not your ordinary coffee and by far, not your standard coffee experience. It is about understanding and enjoying some of the greatest and most sought-after coffees from around the world. The experience goes beyond tasting coffee to understanding each coffee bean, its origin, it’s uniqueness, and the story behind it.
+            </p>
+            <a href="#" class="btn btn-outline-dark">
+              Know more 
+              <i class="fa-solid fa-angle-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="form-sec">
       <div class="container">
         <div class="form-sec__container">
@@ -173,85 +247,34 @@
             <span class="text-primary">Message/Query</span>
           </h3>
           <hr />
-          
-            <div>
-            <form action="index.html" method="post" id="contact_form" class="mt-4">  
-              
-              
+          <form action="" class="mt-4">
             <div class="form__block">
               <label for="" class="form__block__label">Full Name <span class="mandatory">*</span></label>
-              <input type="text" class="form__block__input" id="name" name="name" placeholder="Enter Name..." />
-                <p id="name_error" class="error">Enter Full Name</p>
+              <input type="text" class="form__block__input" placeholder="Enter Name..." />
             </div>
-                
-              
             <div class="form__block">
-              <label for="" class="form__block__label">Contact Number <span class="mandatory">*</span></label>
-              <input type="text" class="form__block__input" id="phone" name="phone" placeholder="Phone Number" />
-                <p id="phone_error" class="error">Enter Contact Number</p>
+              <label for="" class="form__block__label">Phone Number <span class="mandatory">*</span></label>
+              <input type="number" class="form__block__input" placeholder="Phone Number" />
             </div>
-                
             <div class="form__block">
-              <label for="" class="form__block__label">Email Address <span class="mandatory">*</span></label>
-              <input type="text" class="form__block__input" id="email" name="email" placeholder="Enter Email ID" />
-                <p id="email_error" class="error">Enter Email</p>
+              <label for="" class="form__block__label">Email ID <span class="mandatory">*</span></label>
+              <input type="text" class="form__block__input" placeholder="Enter Email ID" />
             </div>
-                
-                
-             <div class="form__block">
-              <label for="" class="form__block__label">Country <span class="mandatory">*</span></label>
-              <input type="text" class="form__block__input" placeholder="Enter Country" name="country" id="country" />
-                 <p id="country_error" class="error">Enter Country</p>
-            </div> 
-                
             <div class="form__block">
-              <label for="" class="form__block__label">Interested to buy the Q Dripper (Yes / No) <span class="mandatory">*</span></label>
-              <input type="text" class="form__block__input" placeholder="Enter Your Interest" name="interest" id="interest" />
-                <p id="interest_error" class="error">Enter Your Interest</p>
-            </div>  
-            
-            <div class="form__block">
-              <label for="" class="form__block__label">Quantity to be Purchased <span class="mandatory">*</span></label>
-              <input type="text" class="form__block__input" placeholder="Enter Quantity" name="quantity" id="quantity" />
-                <p id="quantity_error" class="error">Enter Quantity</p>
-            </div>     
-                
-            <div class="form__block">
-              <label for="" class="form__block__label"> Individual / Company (If Company kindly specify the Complete Name) <span class="mandatory">*</span></label>
-              <input type="text" class="form__block__input" placeholder="Enter Individual / Company" name="company" id="company" />
-                <p id="company_error" class="error">Enter Individual / Company</p>
+              <label for="" class="form__block__label">Subject <span class="mandatory">*</span></label>
+              <input type="text" class="form__block__input" placeholder="Enter Email ID" />
             </div>
-                
-             <div class="form__block">
-              <label for="" class="form__block__label">Shipping Address <span class="mandatory">*</span></label>
-              <textarea name="address" id="address" class="form__block__input form__block__textarea" cols="30" rows="3" placeholder="Enter Shipping Address"></textarea>
-                 <p id="address_error" class="error">Enter Shipping Address</p>
-            </div>    
-                
             <div class="form__block">
-              <label for="" class="form__block__label">Comments /  Feedback <span class="mandatory">*</span></label>
-              <textarea name="message" id="message" class="form__block__input form__block__textarea" cols="30" rows="3" placeholder="Enter Comments /  Feedback"></textarea>
-                <p id="message_error" class="error">Enter Comments /  Feedback</p>
+              <label for="" class="form__block__label">Message <span class="mandatory">*</span></label>
+              <textarea name="" id="" class="form__block__input form__block__textarea" cols="30" rows="5" placeholder="Enter Message/Query"></textarea>
             </div>
-                
             <div class="form__block">
-                
-              <button class="btn btn-primary" id="send_message" type="submit">
+              <button class="btn btn-primary">
                 Submit
                 <i class="fa-solid fa-paper-plane"></i>
               </button>
-                
-              <!--  <input type="submit" id="send_message" class="btn btn-primary" value="Submit" />-->
-          <p id="mail_success" class="success">Thank you for your interest. We will get back to you soon.</p>
-          <p id="mail_fail" class="error">Sorry, an error has occured. Please try again later.</p>
-                
             </div>
-                
           </form>
-            </div>
-
-            
-            
         </div>
       </div>
     </section>
@@ -319,8 +342,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script src="./js/custome.js"></script>
- <script src="./email/contact.js"></script>
-
   <script>
 
     // copyright current year script //
