@@ -1,0 +1,59 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--gilroy-bold);
+  .fw-light, .fw-light {
+    font-family: var(--gilroy-light);    
+  }
+}
+h1, .h1, .fs-h1, .big-heading {
+  font-size: clamp(1.5rem, 10vw, 3.5rem);
+  line-height: clamp(2rem, 11vw, 3.75rem);
+}
+h2, .h2, .fs-h2 {
+  font-size: clamp(1.25rem, 4.5vw, 3rem);
+  line-height: clamp(1.75rem, 7vw, 3.5rem);
+}
+h3, .h3, .fs-h3 {
+  font-size: clamp(1.15rem, 3.5vw, 2.5rem);
+  line-height: clamp(1.55rem, 5vw, 3rem);
+}
+p {
+  font-size: clamp(0.95rem, 3vw, 1.09rem);
+  line-height: clamp(1.35rem, 3vw, 1.55rem);
+  strong { font-family: var(--gilroy-semi-bold); }
+}
+.font-light, .fw-light, .fw-lighter {
+  font-family: var(--gilroy-light) !important; 
+}
+.font-bolder, .fw-bolder, .fw-bold, .font-bold {
+  font-family: var(--gilroy-bold) !important; 
+}
+.font-medium, .fw-medium, .fw-medium {
+  font-family: var(--gilroy-medium) !important; 
+}
+.font-semi-bold, .fw-semi-bold, .fw-semi-bold, .font-semiBold {
+  font-family: var(--gilroy-semi-bold) !important; 
+}
+.font-extra-bold, .fw-extrr-bold {
+  font-family: var(--gilroy-bold) !important; 
+}
+
+.white-space {
+  &--nowrap { white-space: nowrap; }
+  &--wrap { white-space: wrap; }
+}
+
+.text {
+  $types: (inherit, initial, capitalize, lowercase, uppercase, none, revert);
+  &__transform, &-transform {
+    @for $i from 1 to length($types) + 1 {
+      &--#{nth($types, $i)} {
+        text-transform: nth($types, $i) !important;
+      }
+    }
+  }
+  &-primary { color: var(--bs-primary) !important; }
+  &-dark-coral { color: var(--dark-coral) !important; }
+  &-dark-peach { color: var(--dark-peach) !important; }
+  &-desert { color: var(--desert) !important; }
+  &-heavy-metal { color: var(--heavy-metal) !important; }
+}

@@ -1,0 +1,48 @@
+:root {
+
+  // =======================[ Colors ]======================= //
+  --base-body-bg-color: #FCF5EB;
+  --base-body-color: #232323;
+  
+  --dark-coral: #C95B3E;
+  --dark-coral-light: #E19B89;
+  --dark-coral-rgb: 201, 91, 62;
+
+  --dark-peach: #E38565;
+  --dark-peach-light: #EEC1B2;
+  --dark-peach-rgb: 227, 133, 101;
+
+  --desert: #D1AA77;
+  --desert-light: #E8D1B3;
+  --desert-rgb: 209, 170, 119;
+
+  --army-green: #385F2F;
+  --army-green-light: #B7D4B1;
+  --army-green-rgb: 56, 95, 47;
+
+  --heavy-metal: #33372B;
+  --heavy-metal-rgb: 51, 55, 43;
+
+  --bs-primary: var(--dark-coral);  
+
+  // =======================[ fonts ]======================= //
+  --gilroy-light: 'Gilroy Light', 'Roboto', 'Open Sans', "Helvetica Neue", "Noto Sans", sans-serif;
+  --gilroy: 'Gilroy', 'Roboto', 'Open Sans', "Helvetica Neue", "Noto Sans", sans-serif;
+  --gilroy-medium: 'Gilroy Medium', 'Roboto', 'Open Sans', "Helvetica Neue", "Noto Sans", sans-serif;
+  --gilroy-semi-bold: 'Gilroy Semi-bold', 'Roboto', 'Open Sans', "Helvetica Neue", "Noto Sans", sans-serif;
+  --gilroy-bold: 'Gilroy Bold', 'Roboto', 'Open Sans', "Helvetica Neue", "Noto Sans", sans-serif;
+  --gilroy-extra-bold: 'Gilroy Extra-bold', 'Roboto', 'Open Sans', "Helvetica Neue", "Noto Sans", sans-serif;
+  
+  --courgette: 'Courgette', 'cursive', 'Roboto', 'Open Sans', "Helvetica Neue", "Noto Sans", sans-serif;
+
+  // =======================[ Others ]======================= //
+  --aside-menu-width: calc(100px + 1vw);
+  --aside-menu-height: 100vh;
+  --transition: all .35s ease-in-out;
+  --header-height: 75px;
+  --header-nav-height: 55px;
+  --z-index-high-lavel: 10;
+  --header-height-gap: calc(var(--header-height) + 5vh);
+
+  // &.dark-theme {}
+}

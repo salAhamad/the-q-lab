@@ -1,0 +1,65 @@
+/* Extra Bold */
+@font-face {
+	font-family: 'Gilroy Extra-bold';
+	src: url('./extra-bold/Gilroy-ExtraBold.eot');
+	src: url('./extra-bold/Gilroy-ExtraBold.eot?#iefix') format('embedded-opentype'),
+			 url('./extra-bold/Gilroy-ExtraBold.woff2') format('woff2'),
+			 url('./extra-bold/Gilroy-ExtraBold.woff') format('woff'),
+			 url('./extra-bold/Gilroy-ExtraBold.ttf')  format('truetype'),
+			 url('./extra-bold/Gilroy-ExtraBold.svg#Gilroy') format('svg');
+}
+
+/* Bold */
+@font-face {
+	font-family: 'Gilroy Bold';
+	src: url('./bold/Gilroy-Bold.eot');
+	src: url('./bold/Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+			url('./bold/Gilroy-Bold.woff2') format('woff2'),
+			url('./bold/Gilroy-Bold.woff') format('woff'),
+			url('./bold/Gilroy-Bold.ttf')  format('truetype'),
+			url('./bold/Gilroy-Bold.svg#Gilroy') format('svg');
+}
+
+/* Semi Bold */
+@font-face {
+	font-family: 'Gilroy Semi-bold';
+	src: url('./semi-bold/Gilroy-SemiBold.eot');
+	src: url('./semi-bold/Gilroy-SemiBold.eot?#iefix') format('embedded-opentype'),
+			 url('./semi-bold/Gilroy-SemiBold.woff2') format('woff2'),
+			 url('./semi-bold/Gilroy-SemiBold.woff') format('woff'),
+			 url('./semi-bold/Gilroy-SemiBold.ttf')  format('truetype'),
+			 url('./semi-bold/Gilroy-SemiBold.svg#Gilroy') format('svg');
+}
+
+/* Medium */
+@font-face {
+	font-family: 'Gilroy Medium';
+	src: url('./medium/Gilroy-Medium.eot');
+	src: url('./medium/Gilroy-Medium.eot?#iefix') format('embedded-opentype'),
+			 url('./medium/Gilroy-Medium.woff2') format('woff2'),
+			 url('./medium/Gilroy-Medium.woff') format('woff'),
+			 url('./medium/Gilroy-Medium.ttf')  format('truetype'),
+			 url('./medium/Gilroy-Medium.svg#Gilroy') format('svg');
+}
+
+/* Regular */
+@font-face {
+	font-family: 'Gilroy';
+	src: url('./regular/Gilroy-Regular.eot');
+	src: url('./regular/Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+			 url('./regular/Gilroy-Regular.woff2') format('woff2'),
+			 url('./regular/Gilroy-Regular.woff') format('woff'),
+			 url('./regular/Gilroy-Regular.ttf')  format('truetype'),
+			 url('./regular/Gilroy-Regular.svg#Gilroy') format('svg');
+}
+
+/* Light */
+@font-face {
+	font-family: 'Gilroy Light';
+	src: url('./light/Gilroy-Light.eot');
+	src: url('./light/Gilroy-Light.eot?#iefix') format('embedded-opentype'),
+			 url('./light/Gilroy-Light.woff2') format('woff2'),
+			 url('./light/Gilroy-Light.woff') format('woff'),
+			 url('./light/Gilroy-Light.ttf')  format('truetype'),
+			 url('./light/Gilroy-Light.svg#Gilroy') format('svg');
+}
