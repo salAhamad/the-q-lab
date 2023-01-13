@@ -45,14 +45,4 @@
   --header-height-gap: calc(var(--header-height) + 5vh);
 
   // &.dark-theme {}
-
-  // tab view (md)
-  @media (max-width: 991px) {
-    --aside-menu-width: 0;
-  }
-
-  // mobile view (xs/sm)
-  @media (max-width: 767px) {
-    --aside-menu-width: 0;
-  }
 }

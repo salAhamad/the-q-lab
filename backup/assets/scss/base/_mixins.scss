@@ -1,0 +1,42 @@
+@mixin centerItems($items: center, $content: center, $gap: 0) {
+  display: flex;
+  place-items: $items;
+  place-content: $content;
+  gap: $gap;
+}
+
+@mixin scroller($width: 5px, $track: transparent, $thumb: var(--desert), $thumbHover: var(--dark-coral), $pointerEvent: initial) {
+  &::-webkit-scrollbar-track { background: $track; pointer-events: $pointerEvent; }
+  &::-webkit-scrollbar { 
+    width: $width; 
+    height: $width; 
+    background: transparent; 
+    pointer-events: $pointerEvent; 
+    &:vertical:hover, &:horizontal:hover {
+      width: calc(#{$width} + 5px); 
+      height: calc(#{$width} + 5px); 
+    }
+  }
+  &::-webkit-scrollbar-thumb { 
+    background: $thumb; 
+    pointer-events: $pointerEvent; 
+    &:vertical:hover, &:horizontal:hover {
+      background-color: $thumbHover;
+      width: calc(#{$width} + 5px); 
+      height: calc(#{$width} + 5px); 
+    }
+  }
+  // &:hover {
+  //   &::-webkit-scrollbar { width: $width; height: calc(#{$width} + 5px); }
+  //   &::-webkit-scrollbar-thumb { background: $thumbHover; }
+  // }
+}
+
+@mixin objectFit($width: 100%, $height: 100%, $position: center, $objectFit: cover) {
+  img {
+    width: $width;
+    height: $height;
+    object-fit: $objectFit;
+    object-position: $position;
+  }
+}

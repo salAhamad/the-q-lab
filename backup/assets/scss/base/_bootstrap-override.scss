@@ -1,0 +1,72 @@
+.btn {
+  // --bs-btn-color: var(--bs-dark);
+  // --bs-btn-bg: var(--bs-white);
+  // --bs-btn-border-color: var(--bs-white);
+  // --bs-btn-hover-color: var(--bs-white);
+  // --bs-btn-hover-bg: var(--bs-primary);
+  // --bs-btn-hover-border-color: var(--bs-primary);
+
+  // --bs-btn-focus-shadow-rgb: 49,132,253;
+  // --bs-btn-active-color: var(--bs-white);
+  // --bs-btn-active-bg: var(--bs-primary);
+  // --bs-btn-active-border-color: var(--bs-primary);
+  // --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  // --bs-btn-disabled-color: var(--bs-white);
+  // --bs-btn-disabled-bg: var(--bs-primary);
+  // --bs-btn-disabled-border-color: var(--bs-primary);
+  
+  --bs-btn-gap: 1rem;
+  --bs-btn-padding-x: 0.85rem;
+  --bs-btn-padding-y: 0.6rem;
+  --bs-btn-border-radius: 0;
+    // box-shadow: 0 10px 20px -10px rgba(var(#{$shadow}), .5) !important;
+
+  display: inline-flex;
+  align-items: center;
+  gap: var(--bs-btn-gap);
+  line-height: normal;
+  transition: var(--transition);
+
+  i { font-size: 85%; }
+  
+  &-primary, &-dark-coral {
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--dark-coral);
+    --bs-btn-border-color: var(--dark-coral);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: var(--desert);
+    --bs-btn-hover-border-color: var(--desert);
+  }
+  &-secondary, &-desert {
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--desert);
+    --bs-btn-border-color: var(--desert);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: var(--dark-coral);
+    --bs-btn-hover-border-color: var(--dark-coral);
+  }
+  &-dark-peach {
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--dark-peach);
+    --bs-btn-border-color: var(--dark-peach);
+    --bs-btn-hover-color: var(--dark-peach);
+    --bs-btn-hover-bg: var(--bs-white);
+    --bs-btn-hover-border-color: var(--bs-white);
+  }
+  &-army-green {
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--army-green);
+    --bs-btn-border-color: var(--army-green);
+    --bs-btn-hover-color: var(--army-green);
+    --bs-btn-hover-bg: var(--bs-white);
+    --bs-btn-hover-border-color: var(--bs-white);
+  }
+  &-heavy-metal {
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--heavy-metal);
+    --bs-btn-border-color: var(--heavy-metal);
+    --bs-btn-hover-color: var(--heavy-metal);
+    --bs-btn-hover-bg: var(--bs-white);
+    --bs-btn-hover-border-color: var(--bs-white);
+  }
+}

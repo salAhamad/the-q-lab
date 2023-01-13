@@ -41,14 +41,6 @@ body {
   &__nav {
     --nav-padding-x: 1rem;
     --gap: 1.5rem;
-    --dropdwon-bg-color: var(--desert-light);
-    --dropdwon-color: var(--bs-dark);
-    --dropdwon-bg-hover-color: var(--dark-coral);
-    --dropdwon-hover-color: var(--bs-white);
-    --dropdwon-menu-height: 0;
-    --dropdwon-link-padding-y: 0;
-    --dropdwon-link-padding-x: .85rem;
-    
     position: relative;
     height: var(--header-nav-height);
     &__menus {
@@ -70,64 +62,18 @@ body {
       ;
       &__list {
         position: relative;
-        &--link, > a {
+        &--link, a {
           display: block;
           height: var(--header-nav-height);
           line-height: var(--header-nav-height);
           text-decoration: none;
           transition: var(--transition);
-          // &:hover, &.active {
-          //   color: var(--bs-primary);
-          //   box-shadow: inset 0 -4px 0 var(--bs-primary);
-          // }
+          &:hover, &.active {
+            color: var(--bs-primary);
+            box-shadow: inset 0 -4px 0 var(--bs-primary);
+          }
           &.active {
-            color: var(--bs-primary);
-            box-shadow: inset 0 -4px 0 var(--bs-primary);
             font-family: var(--gilroy-semi-bold);
-          }
-        }
-        .sub-menu {
-          position: absolute;
-          white-space: nowrap;
-          list-style: none;
-          margin: 0;
-          padding: 0;
-          top: var(--header-nav-height);
-          &__list {
-            position: relative;
-            overflow: hidden;
-            height: var(--dropdwon-menu-height);
-            transition: var(--transition);
-            &--link {
-              min-height: var(--dropdwon-menu-height);
-              padding-block: var(--dropdwon-link-padding-y);
-              padding-inline: var(--dropdwon-link-padding-x);
-              text-align: center;
-              display: flex;
-              text-decoration: none;
-              background-color: var(--dropdwon-bg-color);
-              color: var(--dropdwon-color);
-              transition: var(--transition);
-              font-size: 95%;
-              &:hover {
-                background-color: var(--dropdwon-bg-hover-color);
-                color: var(--dropdwon-hover-color);
-              }
-            }
-          }
-
-        }
-        &:hover {
-          > a {
-            color: var(--bs-primary);
-            box-shadow: inset 0 -4px 0 var(--bs-primary);
-          }
-          .sub-menu {
-            li {
-              --dropdwon-menu-height: 45px;
-              overflow: visible;
-              --dropdwon-link-padding-y: .45rem;
-            }
           }
         }
       }
@@ -203,10 +149,6 @@ body {
         }
       }
     }
-  }
-
-  @media (max-width: 767px) {
-    display: none !important;
   }
 }
 
@@ -376,7 +318,6 @@ body {
     position: relative;
     padding-left: var(--block-banner-padding-x-start);
     width: 100%;
-    
     &__play-button {
       width: var(--play-button-size);
       aspect-ratio: 1 / 1;
@@ -395,7 +336,6 @@ body {
         scale: 1.2;
       }    }
     &__image {
-      box-shadow: 0 -10px 20px rgba(var(--bs-dark-rgb), .25);
       width: 100%;
       height: 100%;
       background-color: blue;
@@ -494,9 +434,9 @@ body {
             @include centerItems(end, end);
           }
           p {
-            font-family: var(--gilroy-medium);
-            font-size: clamp(0.95rem, 3vw, 1.15rem);
-            line-height: clamp(1.35rem, 3vw, 1.6rem);
+            font-family: var(--courgette);
+            font-size: clamp(0.95rem, 3vw, 1.25rem);
+            line-height: clamp(1.35rem, 3vw, 1.7rem);
           }
         }
         &::after {
@@ -928,11 +868,11 @@ body {
       inset: 0;
       @include objectFit();
       z-index: 0;
-      &:not(.overlay-none)::after {
+      &:note(.overlay-none)::after {
         content: '';
         position: absolute;
         inset: 0;
-        background-color: rgba(var(--bs-dark-rgb), .35);
+        background-color: rgba(var(--bs-dark-rgb), .5);
       }
     }
     &__content {
