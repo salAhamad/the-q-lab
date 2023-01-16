@@ -1,5 +1,6 @@
 <?php include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
+<?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
   
   <!-- main body wrapper [ end ] -->
@@ -10,7 +11,7 @@
           <div class="home__slider__slide content-light">
           <div class="home__slider__slide__banner--full-width">
             <picture>
-              <source media="(max-width:465px)" srcset="./assets/images/slider-one.jpg">
+              <!-- <source media="(max-width:465px)" srcset="./assets/images/slider-one.jpg"> -->
               <img src="./assets/images/slider-two.jpg" alt="Slider one" />
             </picture>
           </div>
@@ -20,7 +21,7 @@
                 <div class="home__slider__slide__content">
                   <h2 class="content--heading">TQL Story</h2>
                   <p class="content--text" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero temporibus hic accusamus dolorum quidem repellendus eveniet neque dignissimos! Vel laudantium eos, aspernatur suscipit sit omnis.</p>
-                  <a class="btn btn-secondary" href="about.html">
+                  <a class="btn btn-secondary" href="about.php">
                     Know More
                     <i class="fa-solid fa-chevron-right"></i>
                   </a>
@@ -37,7 +38,7 @@
                 <div class="home__slider__slide__content">
                   <h2 class="content--heading">PODS &amp; More</h2>
                   <p class="content--text" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero temporibus hic accusamus dolorum quidem repellendus eveniet neque dignissimos! Vel laudantium eos, aspernatur suscipit sit omnis.</p>
-                  <a class="btn btn-primary" href="coffee-concept.html">
+                  <a class="btn btn-primary" href="coffee-concept.php">
                     Know More
                     <i class="fa-solid fa-chevron-right"></i>
                   </a>
@@ -46,7 +47,7 @@
               <div class="col-12 col-xl-6 d-flex">
                 <div class="home__slider__slide__banner--short">
                   <picture>
-                    <source media="(max-width:465px)" srcset="./assets/images/pods.png">
+                    <!-- <source media="(max-width:465px)" srcset="./assets/images/pods.png"> -->
                     <img src="./assets/images/pods.png" alt="Slider one" />
                   </picture>
                 </div>
@@ -62,7 +63,7 @@
                 <div class="home__slider__slide__content">
                   <h2 class="content--heading">The Qlab Coffee </h2>
                   <p class="content--text" style="display: none;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium libero temporibus hic accusamus dolorum quidem repellendus eveniet neque dignissimos! Vel laudantium eos, aspernatur suscipit sit omnis.</p>
-                  <a class="btn btn-primary" href="coffee.html">
+                  <a class="btn btn-primary" href="coffee.php">
                     Know More
                     <i class="fa-solid fa-chevron-right"></i>
                   </a>
@@ -71,7 +72,7 @@
               <div class="col-12 col-xl-6 d-flex">
                 <div class="home__slider__slide__banner--short">
                   <picture>
-                    <source media="(max-width:465px)" srcset="./assets/images/coffee-bean-with-powder.png">
+                    <!-- <source media="(max-width:465px)" srcset="./assets/images/coffee-bean-with-powder.png"> -->
                     <img src="./assets/images/coffee-bean-with-powder.png" alt="Slider one" />
                   </picture>
                 </div>
@@ -79,11 +80,6 @@
             </div>
           </div>
         </div>
-          
-        
-          
-        
-          
       </div>
       <a href="#homeAbout" class="down__arrow"><i class="fa-solid fa-arrow-down"></i></a>
     </section>
@@ -119,7 +115,7 @@
         <div class="container">
           <div class="row align-items-end">
             <div class="col-12 col-lg-6 col-xl-4 d-flex">
-              <a href="about.html" class="about-quote__cta-button text-decoration-none">
+              <a href="about.php" class="about-quote__cta-button text-decoration-none">
                 <span>
                   <span class="font-light">Know more about </span>
                   <span class="text-transform--uppercase d-block fw-bold">The Q Lab (TQL)</span>
@@ -164,7 +160,7 @@
             <p class="mb-4">
               The Q Lab is not your ordinary coffee and by far, not your standard coffee experience. It is about understanding and enjoying some of the greatest and most sought-after coffees from around the world. The experience goes beyond tasting coffee to understanding each coffee bean, its origin, it’s uniqueness, and the story behind it.
             </p>
-            <a href="about.html" class="btn btn-primary">
+            <a href="about.php" class="btn btn-primary">
               Know more 
               <i class="fa-solid fa-angle-right"></i>
             </a>
@@ -172,6 +168,7 @@
         </div>
       </div>
     </section>
+
     <section class="coffee-varieties-sec">
       <div class="container">
         <div class="coffee-varieties-sec__container">
@@ -190,7 +187,7 @@
             </div>
           </div>
           <div class="coffee-varieties-sec__body mt-5">
-            <div class="row g-0">
+            <div class="row g-0 mobile-horizontal-scroll">
               <div class="col-12 col-lg-6 col-xl-3">
                 <div class="coffee-varieties-sec__list__card coffee">
                   <div class="coffee-varieties-sec__list__card__bg" style="background-image: url('https://www.tastingtable.com/img/gallery/coffee-brands-ranked-from-worst-to-best/l-intro-1645231221.jpg');"></div>
@@ -201,7 +198,7 @@
                       </svg>
                     </div>
                     <h3>The Coffee Beans</h3>
-                    <a href="coffee.html" class="btn btn-light read-more-button white-space--nowrap">
+                    <a href="coffee.php" class="btn btn-light read-more-button white-space--nowrap">
                       Know more
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
@@ -218,7 +215,7 @@
                       </svg>
                     </div>
                     <h3>The Baristas</h3>
-                    <a href="coffee.html" class="btn btn-light read-more-button white-space--nowrap">
+                    <a href="coffee.php" class="btn btn-light read-more-button white-space--nowrap">
                       Know more
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
@@ -235,7 +232,7 @@
                       </svg>
                     </div>
                     <h3>The Coffee Beans</h3>
-                    <a href="coffee.html" class="btn btn-light read-more-button white-space--nowrap">
+                    <a href="coffee.php" class="btn btn-light read-more-button white-space--nowrap">
                       Know more
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
@@ -252,7 +249,7 @@
                       </svg>
                     </div>
                     <h3>The Roastery</h3>
-                    <a href="coffee.html" class="btn btn-light read-more-button white-space--nowrap">
+                    <a href="coffee.php" class="btn btn-light read-more-button white-space--nowrap">
                       Know more
                       <i class="fa-solid fa-chevron-right"></i>
                     </a>
@@ -266,20 +263,18 @@
     </section>
     <section class="home-merchandise-sec">
       <div class="container">
-        <div class="home-merchandise-sec__header [ d-flex justify-content-between align-items-center mb-4 ]">
+        <div class="home-merchandise-sec__header [ d-flex justify-content-between align-items-center mb-4 flex-wrap ]">
           <h2 class="text-transform--uppercase">
-            <span class="fw-light d-block">The</span>
             <span class="text-primary">merchandise</span>
           </h2>
-          <a href="marchandise.html" class="btn btn-light shadow-sm">
+          <a href="marchandise.php" class="btn btn-light shadow-sm">
             View All <i class="fa-solid fa-angle-right"></i>
           </a>
         </div>
-          
-          
+
         <div class="home-merchandise-sec__products products__card__container pt-3">
           <div class="products__card">
-            <div class="row">
+            <div class="row mobile-horizontal-scroll">
               <div class="col-12 col-lg-4 col-xl-3">
                 <div class="product-card" style="--product-card-bg-color: var(--dark-peach-light)">
                   <div class="product-card__content">

@@ -30,6 +30,7 @@
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="./assets/css/style.css" />
   <link rel="stylesheet" href="./assets/css/responsive.css" />
+  <link rel="stylesheet" href="./email/form-style.css">
 </head>
 <body>
   <!-- Google Tag Manager (noscript) -->

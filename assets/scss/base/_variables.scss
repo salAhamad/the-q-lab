@@ -1,5 +1,4 @@
 :root {
-
   // =======================[ Colors ]======================= //
   --base-body-bg-color: #FCF5EB;
   --base-body-color: #232323;
@@ -46,13 +45,23 @@
 
   // &.dark-theme {}
 
-  // tab view (md)
-  @media (max-width: 991px) {
-    --aside-menu-width: 0;
+}
+// tab view (md)
+@media (max-width: 991px) {
+  :root {
+    --aside-menu-width: calc(60px + 1vw);
+    --header-height-gap: 0;
+    --mobile-padding: 3vw;
   }
+}
 
-  // mobile view (xs/sm)
-  @media (max-width: 767px) {
+// mobile view (xs/sm)
+@media (max-width: 767px) {
+  :root {
     --aside-menu-width: 0;
+    --header-height-gap: 0;
+    --mobile-padding: 5vw;
+    --horizontal-card-width: 85vw;
   }
+ 
 }

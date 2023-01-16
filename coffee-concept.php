@@ -1,5 +1,6 @@
 <?php include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
+<?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
   
   <!-- main body wrapper [ end ] -->
@@ -35,7 +36,7 @@
     </section>
     <section class="bar-zone-sec">
       <div class="container">
-        <div class="row">
+        <div class="row g-3">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="bar-zone-sec__card">
               <div class="bar-zone-sec__card__image">

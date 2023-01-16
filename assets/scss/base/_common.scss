@@ -21,6 +21,27 @@ p {
   line-height: clamp(1.35rem, 3vw, 1.55rem);
   strong { font-family: var(--gilroy-semi-bold); }
 }
+
+@media (max-width: 767px) {
+  h1, .h1, .fs-h1, .big-heading {
+    font-size: clamp(1.5rem, 12vw, 3.5rem);
+    line-height: clamp(2rem, 14vw, 3.75rem);
+  }
+  h2, .h2, .fs-h2 {
+    font-size: clamp(1.25rem, 10vw, 3rem);
+    line-height: clamp(1.75rem, 12vw, 3.5rem);
+  }
+  h3, .h3, .fs-h3 {
+    font-size: clamp(1.15rem, 6vw, 2.5rem);
+    line-height: clamp(1.55rem, 8vw, 3rem);
+  }
+  // p {
+  //   font-size: clamp(0.95rem, 3vw, 1.09rem);
+  //   line-height: clamp(1.35rem, 3vw, 1.55rem);
+  //   strong { font-family: var(--gilroy-semi-bold); }
+  // }
+}
+
 .font-light, .fw-light, .fw-lighter {
   font-family: var(--gilroy-light) !important; 
 }

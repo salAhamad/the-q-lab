@@ -1,5 +1,6 @@
 <?php include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
+<?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
   
   <!-- main body wrapper [ end ] -->
@@ -12,8 +13,7 @@
             <img src="./assets/images/merchandise-banner.jpg" alt="Merchandise Banner" />
           </div>
           <div class="hero-banner__container__content">
-            <h2 class="fz-h1 text-desert m-0">
-              <span class="fw-light">The</span>
+            <h2 class="fz-h1 text-white m-0">
               <span class="d-block text-transform--uppercase">Merchandise</span>
             </h2>
           </div>

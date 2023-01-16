@@ -1,5 +1,6 @@
 <?php include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
+<?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
   
   <!-- main body wrapper [ end ] -->
@@ -22,7 +23,7 @@
     <!-- hero banner [ end ] -->
 
     <!-- Content Section -->
-    <section class="coffee-second-sec pb-0">
+    <section class="coffee-second-sec pb-0 hidden-xs">
       <div class="container">
         <div class="coffee-second-sec__container">
           <div class="coffee-second-sec__container__content d-none">
@@ -59,7 +60,7 @@
                 <li>Blends made from single origin specialty graded coffees to share the deep-rooted skills of Arabs experience and history of blending coffee dating back hundreds of years.</li>
               </ul>
             </div>
-            <div class="additiona-image">
+            <div class="additiona-image hidden-xs">
               <img src="./assets/images/coffee-bean-bag.png" alt="Coffee Beans Bag" />
             </div>
           </div>

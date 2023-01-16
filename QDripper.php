@@ -1,5 +1,6 @@
 <?php include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
+<?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
   
   <!-- main body wrapper [ end ] -->
