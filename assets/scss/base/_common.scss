@@ -10,11 +10,11 @@ h1, .h1, .fs-h1, .big-heading {
 }
 h2, .h2, .fs-h2 {
   font-size: clamp(1.25rem, 4.5vw, 3rem);
-  line-height: clamp(1.75rem, 7vw, 3.5rem);
+  line-height: clamp(1.75rem, 5.25vw, 3.5rem);
 }
 h3, .h3, .fs-h3 {
   font-size: clamp(1.15rem, 3.5vw, 2.5rem);
-  line-height: clamp(1.55rem, 5vw, 3rem);
+  line-height: clamp(1.55rem, 4vw, 3rem);
 }
 p {
   font-size: clamp(0.95rem, 3vw, 1.09rem);
@@ -29,7 +29,7 @@ p {
   }
   h2, .h2, .fs-h2 {
     font-size: clamp(1.25rem, 10vw, 3rem);
-    line-height: clamp(1.75rem, 12vw, 3.5rem);
+    line-height: clamp(1.75rem, 11vw, 3.25rem);
   }
   h3, .h3, .fs-h3 {
     font-size: clamp(1.15rem, 6vw, 2.5rem);

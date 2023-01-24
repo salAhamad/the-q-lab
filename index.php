@@ -1,4 +1,6 @@
-<?php include './components/Head.php' ?>
+<?php $pagetitle = "The Q Lab"; include './components/Head.php' ?>
+
+<?php // include './components/PreLoader.php' ?>
 <?php include './components/Header.php' ?>
 <?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
@@ -89,7 +91,7 @@
     <section class="home-about-sec" id="homeAbout">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-6 col-xl-4 d-flex">
+          <div class="col-12 col-xl-4 d-flex">
             <div class="home-about-sec__content">
               <h2 class="home-about-sec__content__heading fs-h1 text__transform--uppercase mb-3">
                 <span class="fw-light d-block">What is</span> TQL?
@@ -99,9 +101,9 @@
               </p>
             </div>
           </div>
-          <div class="col-12 col-lg-6 col-xl-8 d-flex">
+          <div class="col-12 col-xl-8 d-flex">
             <div class="home-about-sec__banner">
-              <div class="home-about-sec__banner__play-button">
+              <div class="home-about-sec__banner__play-button video-play-button">
                 <i class="fa-solid fa-play"></i>
               </div>
               <picture class="home-about-sec__banner__image">
@@ -186,7 +188,7 @@
               <img src="./assets//images/coffee-bean-with-powder.png" alt="Coffee with Powder" />
             </div>
           </div>
-          <div class="coffee-varieties-sec__body mt-5">
+          <div class="coffee-varieties-sec__body mt-xl-5">
             <div class="row g-0 mobile-horizontal-scroll">
               <div class="col-12 col-lg-6 col-xl-3">
                 <div class="coffee-varieties-sec__list__card coffee">
@@ -275,7 +277,7 @@
         <div class="home-merchandise-sec__products products__card__container pt-3">
           <div class="products__card">
             <div class="row mobile-horizontal-scroll">
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-lg-6 col-xl-3">
                 <div class="product-card" style="--product-card-bg-color: var(--dark-peach-light)">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -286,7 +288,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-lg-6 col-xl-3">
                 <div class="product-card" style="--product-card-bg-color: var(--desert-light)">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -297,7 +299,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-lg-6 col-xl-3">
                 <div class="product-card" style="--product-card-bg-color: var(--army-green-light)">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -308,7 +310,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-lg-6 col-xl-3">
                 <div class="product-card" style="--product-card-bg-color: var(--dark-coral-light)">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -437,5 +439,5 @@
     <?php include './components/FooterCopyright.php' ?>
   </footer>
   <!-- footer [ end ] -->
-  
-  <?php include './components/Footer.php' ?>  
+
+<?php include './components/Footer.php' ?>  

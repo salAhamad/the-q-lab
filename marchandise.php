@@ -1,4 +1,8 @@
-<?php include './components/Head.php' ?>
+<?php
+
+$pagetitle = "Merchandise - The Q Lab";
+
+include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
 <?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
@@ -9,7 +13,7 @@
     <section class="hero-banner">
       <div class="container">
         <div class="hero-banner__container">
-          <div class="hero-banner__container__image overlay-none">
+        <div class="hero-banner__container__image overlay-none">
             <img src="./assets/images/merchandise-banner.jpg" alt="Merchandise Banner" />
           </div>
           <div class="hero-banner__container__content">
@@ -35,7 +39,7 @@
         <div class="products__card__container py-4">
           <div class="products__card">
             <div class="row g-4">
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="product-card">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -46,7 +50,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="product-card">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -57,7 +61,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="product-card">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -68,7 +72,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="product-card">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -79,7 +83,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="product-card">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -90,7 +94,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="product-card">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -101,7 +105,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="product-card">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>
@@ -112,7 +116,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-4 col-xl-3">
+              <div class="col-12 col-md-6 col-lg-4 col-xl-3">
                 <div class="product-card">
                   <div class="product-card__content">
                     <a href="#" class="product-card__link"><i class="fa-solid fa-up-right-from-square"></i></a>

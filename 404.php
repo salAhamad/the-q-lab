@@ -1,6 +1,6 @@
 <?php
 
-$pagetitle = "About - The Q Lab";
+$pagetitle = "Page Not Found - The Q Lab";
 
 include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
@@ -18,8 +18,8 @@ include './components/Head.php' ?>
           </div>
           <div class="hero-banner__container__content">
             <h2 class="fz-h1 text-white m-0">
-              <span class="fw-light">About</span>
-              <span class="d-block text-transform--uppercase">The Q LAB (TQL)</span>
+              <span class="fw-light">404</span>
+              <span class="d-block text-transform--uppercase">Page Not Found!</span>
             </h2>
           </div>
         </div>
@@ -31,29 +31,28 @@ include './components/Head.php' ?>
       <div class="container">
         <div class="about-page-sec__container">
           <div class="row">
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-md-4 col-lg-3">
               <div class="about-page-sec__container__logo d-flex justify-content-center pt-2">
                 <img src="./assets/images/logo--dark.svg" alt="The Q Lab Logo" width="150" />
               </div>
             </div>
-            <div class="col-12 col-lg-9">
+            <div class="col-12 col-md-8 col-lg-9">
               <div class="about-page-sec__container__content pe-md-3">
+                  <h2>Not Found (404)</h2>
                 <p>
-                  The history of coffee is deeply-rooted in the Arab world and specifically within the <strong>Arabian Peninsula</strong>. There are many arguments that the origins of coffee started from either <strong>Yemen</strong> or <strong>Ethiopia</strong>. Both countries are with great coffee heritage yet the Arabs have played an important role in the development of coffee from the moment it was first discovered in <strong>Yemen</strong> up to this day. It is well noted that <strong>Arabs</strong> were the first to roast and boil coffee, making way for the beverage that is enjoyed by <strong>billions of people around the world</strong>.
+                  Sorry, the page you are looking for does not exist / The link you followed may be broken. </a>. 
                 </p>
-                <p>
-                  This tradition of enjoying coffee among the <strong>Arabs</strong> and in the <strong>Muslim world</strong> continued to develop and grow throughout the <strong>13th century</strong>. Ever since, <strong>Arabs</strong> understood the values of coffee though its stimulating effects and awakening characteristics through which they have been enjoying ever since.
+                  <p>
+                  Go back to <a href="./">home</a>. 
                 </p>
-                <p>
-                  <strong>Coffee</strong> shops – or coffee houses, <strong>‘Qahwa’</strong> – or <strong>‘MaQha,’</strong> began spreading and have become part of a social experience where people went to relax and enjoy conversations. It has gone beyond just a place to enjoy a beverage but a place to exchange knowledge, wisdom, and information; which is not too different from today’s world. <strong>The Q lab</strong> is a testament to the history of <strong>‘Qahwa,’</strong> or <strong>Coffee</strong>, as it is known today in the <strong>Arab</strong> world in bringing some of the world’s most exclusive coffees for people to experience and understand the history and complexity of this unique beverage.
-                </p>
+                
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section class="the-q-lab-sec">
+    <section class="the-q-lab-sec d-none">
       <div class="container">
         <div class="the-q-lab-sec__container">
           <div class="the-q-lab-sec__container__infographic">
@@ -87,7 +86,7 @@ include './components/Head.php' ?>
         </div>
       </div>
     </section>
-    <section class="vision-sec">
+    <section class="vision-sec d-none">
       <div class="container">
         <div class="vision-sec__container">
           <div class="vision-sec__container__image">
@@ -107,7 +106,7 @@ include './components/Head.php' ?>
         </div>
       </div>
     </section>
-    <section class="about-what-make-unique-sec">
+    <section class="about-what-make-unique-sec d-none">
       <div class="container">
         <div class="about-what-make-unique-sec__container">
           <div class="about-what-make-unique-sec__container__image">

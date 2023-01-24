@@ -22,7 +22,7 @@
   --heavy-metal: #33372B;
   --heavy-metal-rgb: 51, 55, 43;
 
-  --bs-primary: var(--dark-coral);  
+  --bs-primary: var(--dark-coral);
 
   // =======================[ fonts ]======================= //
   --gilroy-light: 'Gilroy Light', 'Roboto', 'Open Sans', "Helvetica Neue", "Noto Sans", sans-serif;
@@ -49,9 +49,10 @@
 // tab view (md)
 @media (max-width: 991px) {
   :root {
-    --aside-menu-width: calc(60px + 1vw);
+    --aside-menu-width: calc(80px + 1vw);
     --header-height-gap: 0;
-    --mobile-padding: 3vw;
+    --mobile-padding: 2.5vw;
+    --horizontal-card-width: 320px;
   }
 }
 

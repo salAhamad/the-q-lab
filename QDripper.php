@@ -1,4 +1,8 @@
-<?php include './components/Head.php' ?>
+<?php
+
+$pagetitle = "Q Dripper - The Q Lab";
+
+include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
 <?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
@@ -14,7 +18,7 @@
           </div>
           <div class="hero-banner__container__content">
             <h2 class="fz-h1 text-white m-0">
-              Innovation
+              Q Dripper
             </h2>
           </div>
         </div>
@@ -26,12 +30,12 @@
       <div class="container">
         <div class="about-page-sec__container">
           <div class="row">
-            <div class="col-12 col-md-4 col-lg-3">
+            <div class="col-12 col-lg-3">
               <div class="about-page-sec__container__logo d-flex justify-content-center pt-2">
                 <img src="./assets/images/logo--dark.svg" alt="The Q Lab Logo" width="150" />
               </div>
             </div>
-            <div class="col-12 col-md-8 col-lg-9">
+            <div class="col-12 col-lg-9">
               <div class="about-page-sec__container__content pe-md-3">
                 <p>
                   The <strong>Q Dripper</strong> is the first ever coffee pour over designed and produced in the region and launched for the first time in <strong>Dubai</strong> as an initiative of <strong>The Q Lab</strong>.

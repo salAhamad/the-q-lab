@@ -1,4 +1,8 @@
-<?php include './components/Head.php' ?>
+<?php
+
+$pagetitle = "Coffee - The Q Lab";
+
+include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
 <?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
@@ -80,7 +84,7 @@
                 <img src="./assets/images/baristas-icon.svg" alt="Baristas Icon" />
               </div>
               <h2 class="fw-light coffee-variety-sec__container__content__header__heading text-transform--uppercase m-0">
-                The <span class="fw-bold">Coffee</span> Beans
+                The <span class="fw-bold">BARISTAS</span>
               </h2>
             </div>
             <div class="coffee-variety-sec__container__content__body">

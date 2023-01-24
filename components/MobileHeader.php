@@ -66,8 +66,8 @@
           </a>
         </li>          
         <li>
-          <a class="mobile-header__social__list--link" href="https://twitter.com/Theqlabae">
-            <i class="fa-brands fa-twitter"></i>
+          <a class="mobile-header__social__list--link" href="https://www.facebook.com/Theqlab.ae/">
+            <i class="fa-brands fa-facebook-f"></i>
           </a>
         </li>          
         <li>

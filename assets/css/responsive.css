@@ -35,9 +35,10 @@
 
 @media (max-width: 991px) {
   :root {
-    --aside-menu-width: calc(60px + 1vw);
+    --aside-menu-width: calc(80px + 1vw);
     --header-height-gap: 0;
-    --mobile-padding: 3vw;
+    --mobile-padding: 2.5vw;
+    --horizontal-card-width: 320px;
   }
 }
 @media (max-width: 767px) {
@@ -380,12 +381,12 @@ h1, .h1, .fs-h1, .big-heading {
 
 h2, .h2, .fs-h2 {
   font-size: clamp(1.25rem, 4.5vw, 3rem);
-  line-height: clamp(1.75rem, 7vw, 3.5rem);
+  line-height: clamp(1.75rem, 5.25vw, 3.5rem);
 }
 
 h3, .h3, .fs-h3 {
   font-size: clamp(1.15rem, 3.5vw, 2.5rem);
-  line-height: clamp(1.55rem, 5vw, 3rem);
+  line-height: clamp(1.55rem, 4vw, 3rem);
 }
 
 p {
@@ -403,7 +404,7 @@ p strong {
   }
   h2, .h2, .fs-h2 {
     font-size: clamp(1.25rem, 10vw, 3rem);
-    line-height: clamp(1.75rem, 12vw, 3.5rem);
+    line-height: clamp(1.75rem, 11vw, 3.25rem);
   }
   h3, .h3, .fs-h3 {
     font-size: clamp(1.15rem, 6vw, 2.5rem);
@@ -543,6 +544,20 @@ p strong {
   .hidden-md {
     display: none !important;
   }
+  .mobile-horizontal-scroll {
+    --bs-gutter-x: 0;
+    overflow-x: scroll;
+    flex-wrap: nowrap;
+    padding: 0 var(--mobile-padding);
+    width: calc(100vw - var(--header-height-gap));
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    gap: var(--mobile-padding);
+  }
+  .mobile-horizontal-scroll .col-12 {
+    width: var(--horizontal-card-width);
+  }
 }
 @media (max-width: 767px) {
   .hidden-xs {
@@ -614,8 +629,8 @@ p strong {
     padding: var(--mobile-header-menu-padding);
     background-color: var(--mobile-header-menu-bg-color);
     color: var(--mobile-header-menu-color);
-    -webkit-backdrop-filter: blur(5vw);
-            backdrop-filter: blur(5vw);
+    -webkit-backdrop-filter: blur(2.5vw);
+            backdrop-filter: blur(2.5vw);
     padding-top: var(--mobile-header-close-menu-button);
     overflow-y: scroll;
     left: calc(0% - var(--mobile-header-menus-margin));
@@ -756,5 +771,20 @@ p strong {
 @media (max-width: 768px) {
   .container, .container-md, .container-sm {
     max-width: 600px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 83vw !important;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1366px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 85vw !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 80vw !important;
   }
 }

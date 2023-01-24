@@ -1,4 +1,8 @@
-<?php include './components/Head.php' ?>
+<?php
+
+$pagetitle = "Contact Us - The Q Lab";
+
+include './components/Head.php' ?>
 <?php include './components/Header.php' ?>
 <?php include './components/MobileHeader.php' ?>
 <?php include './components/AsideHeader.php' ?>
@@ -36,7 +40,7 @@
             </li>
             <li>
               <p class="fw-semi-bold mb-2">Address:</p>
-              <p>INDEX Holding Headquarters Road # D-62, Opposite Nad Al Hamar Dubai, United Arab Emirates</p>
+              <p>INDEX Holding Headquarters, Road # D-62, Opposite Nad Al Hamar Dubai, United Arab Emirates</p>
             </li>
           </ul>
         </div>
